@@ -3,3 +3,7 @@ spring:
     url: r2dbc:postgresql://localhost:5432/nursery_db
     username: josemaria
     password: maria17
+  flyway:
+    url: jdbc:postgresql://localhost:5432/nursery_db
+    user: josemaria
+    password: maria17
